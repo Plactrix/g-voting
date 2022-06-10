@@ -1,23 +1,15 @@
-fx_version 'adamant'
+fx_version "adamant"
+game "gta5"
 
-game 'gta5'
-
-
-server_scripts {
-	'server/main.lua',
-    "@mysql-async/lib/MySQL.lua"
-	
-}
-
-client_scripts {
-	'client/main.lua'
+files {
+    "html/index.html",
+    "html/index.js",
+    "html/main.css",
+    "html/Assets/votingicon.png"
 }
 
 ui_page "html/index.html"
-files({
-    'html/index.html',
-    'html/index.js',
-    'html/main.css',
-    'html/Assets/votingicon.png'
-})
 
+client_scripts {
+    "client/main.lua"
+}
