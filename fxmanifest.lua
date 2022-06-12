@@ -2,8 +2,8 @@ fx_version "adamant"
 game "gta5"
 
 author "Gavi1223"
-description "g-voting"
-version "1.0.0"
+description "g-voting edited by Plactrix"
+version "1.0.1"
 
 files {
     "html/index.html",
