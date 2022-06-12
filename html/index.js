@@ -27,7 +27,7 @@ $(function () {
             $("#slot4Accept").prop( "checked", false );
             $("#slot5Accept").prop( "checked", false );
             $(".footer").hide();
-            $.post('http://agrp-voting/exit', JSON.stringify({}));
+            $.post('http://g-voting/exit', JSON.stringify({}));
             return
         }
     };
